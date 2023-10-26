@@ -14,7 +14,10 @@ class SettingPage extends StatelessWidget {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: [Image.asset("assets/images/ic_android.png")],
+          children: [
+            Image.asset("assets/images/ic_android.png"),
+            Icon(Icons.settings)
+          ],
         ),
       ),
     );
